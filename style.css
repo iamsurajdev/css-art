@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  height: 100vh;
+  width: 100%;
+  background-color: cadetblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.burger {
+  height: 500px;
+  width: 500px;
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.top-bun {
+  height: 100px;
+  width: 300px;
+  background-color: #f2b46e;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+}
+.cheese {
+  height: 23px;
+  width: 250px;
+  background-color: yellow;
+}
+.veges {
+  height: 30px;
+  width: 250px;
+  background-color: green;
+}
+.chicken {
+  height: 50px;
+  width: 260px;
+  background-color: #d65f2f;
+  border-radius: 3px;
+}
+.bottom-bun {
+  height: 80px;
+  width: 300px;
+  background-color: #f2b46e;
+  border-radius: 15px;
+}
