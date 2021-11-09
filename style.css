@@ -14,37 +14,70 @@ body {
 .burger {
   height: 500px;
   width: 500px;
-  background-color: aquamarine;
+  background-color: rgb(16, 51, 39);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 .top-bun {
-  height: 100px;
+  height: 70px;
   width: 300px;
   background-color: #f2b46e;
   border-top-left-radius: 100px;
   border-top-right-radius: 100px;
 }
-.cheese {
-  height: 23px;
-  width: 250px;
-  background-color: yellow;
+
+.tomatoes {
+  height: 12px;
+  width: 260px;
+  background-color: #ff0000;
+  border-radius: 12px;
 }
 .veges {
   height: 30px;
-  width: 250px;
+  width: 290px;
   background-color: green;
+  display: block;
+  transform: scaleX(0.9);
+}
+.leafs {
+  border-bottom: 40px dotted green;
+  position: absolute;
+  width: 100%;
+  height: 0;
+  top: 12%;
+  left: 0;
+  z-index: 1;
+}
+
+.cheese {
+  display: block;
+  height: 12px;
+  width: 290px;
+  background-color: yellow;
+  border-radius: 2px;
+  transform: scaleX(0.9);
+  border-radius: 12px;
+}
+
+.cheese-drip {
+  position: absolute;
+  width: 75%;
+  height: 400%;
+  top: 53.3%;
+  left: 15%;
+  background: yellow;
+  clip-path: polygon(100% 0, 0 0, 100% 34%);
 }
 .chicken {
-  height: 50px;
+  height: 25px;
   width: 260px;
   background-color: #d65f2f;
-  border-radius: 3px;
+  border-radius: 12px;
 }
 .bottom-bun {
-  height: 80px;
+  height: 50px;
   width: 300px;
   background-color: #f2b46e;
   border-radius: 15px;
