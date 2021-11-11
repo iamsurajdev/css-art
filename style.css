@@ -21,11 +21,57 @@ body {
   justify-content: center;
 }
 .top-bun {
+  display: flex;
   height: 70px;
-  width: 300px;
+  width: 260px;
+  padding: 0 20px;
   background-color: #f2b46e;
   border-top-left-radius: 100px;
   border-top-right-radius: 100px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.seed {
+  width: 16px;
+  height: 12px;
+  border-radius: 50px;
+  clip-path: polygon(0 0, 100% 0, 100% 37%, 0 35%);
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgb(111, 111, 114) 68%,
+    rgb(42, 42, 42) 100%
+  );
+}
+
+.seed-1 {
+  margin-top: 13px;
+}
+.seed-2 {
+  margin-bottom: 13px;
+}
+.seed-3 {
+  margin-top: 13px;
+}
+.seed-4 {
+  margin-bottom: 13px;
+}
+.seed-5 {
+  margin-top: 13px;
+}
+.seed-6 {
+  margin-bottom: 13px;
+}
+.seed-7 {
+  margin-top: 13px;
+}
+.seed-8 {
+  margin-bottom: 13px;
+}
+.seed-9 {
+  margin-top: 13px;
 }
 
 .tomatoes {
