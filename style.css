@@ -23,9 +23,15 @@ body {
 .top-bun {
   display: flex;
   height: 70px;
-  width: 260px;
+  width: 275px;
   padding: 0 20px;
-  background-color: #f2b46e;
+  background: rgb(238, 199, 131);
+  background: linear-gradient(
+    0deg,
+    rgb(238, 199, 131) 0%,
+    rgba(227, 182, 107, 1) 36%,
+    rgba(215, 162, 96, 1) 100%
+  );
   border-top-left-radius: 100px;
   border-top-right-radius: 100px;
   align-items: center;
@@ -76,13 +82,13 @@ body {
 
 .tomatoes {
   height: 12px;
-  width: 260px;
-  background-color: #ff0000;
+  width: 275px;
+  background-color: #de4333;
   border-radius: 12px;
 }
 .veges {
   height: 30px;
-  width: 290px;
+  width: 305px;
   background-color: green;
   display: block;
   transform: scaleX(0.9);
@@ -137,8 +143,8 @@ body {
 .cheese {
   display: block;
   height: 12px;
-  width: 290px;
-  background-color: yellow;
+  width: 305px;
+  background-color: #f8c136;
   border-radius: 2px;
   transform: scaleX(0.9);
   border-radius: 12px;
@@ -150,18 +156,24 @@ body {
   height: 400%;
   top: 53.3%;
   left: 15%;
-  background: yellow;
+  background: #f8c136;
   clip-path: polygon(100% 0, 0 0, 100% 34%);
 }
 .chicken {
   height: 25px;
-  width: 260px;
-  background-color: #d65f2f;
+  width: 275px;
+  background-color: #c76232;
   border-radius: 12px;
 }
 .bottom-bun {
   height: 50px;
   width: 300px;
-  background-color: #f2b46e;
+  /* background-color: #f2b46e; */
+  background: rgb(239, 217, 180);
+  background: linear-gradient(
+    0deg,
+    rgba(215, 162, 96, 1) 0%,
+    rgba(227, 182, 107, 1) 100%
+  );
   border-radius: 15px;
 }
