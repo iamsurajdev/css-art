@@ -16,6 +16,7 @@
   width: 500px;
   height: 500px;
   background-color: rgb(255, 255, 255);
+  position: absolute;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -81,7 +82,7 @@
   position: absolute;
   top: 49%;
   width: 125px;
-  left: 35%;
+  left: 18%;
   height: 45px;
   transform: rotate(29deg);
   background-color: #459eb9;
@@ -100,7 +101,7 @@
   position: absolute;
   top: 49%;
   width: 125px;
-  right: 35%;
+  right: 18%;
   height: 45px;
   transform: rotate(156deg);
   background-color: #459eb9;
