@@ -91,6 +91,59 @@
   background-color: #ffffff;
   margin: 5px 0 0 3px;
 }
+.face-hair {
+  width: 35px;
+  height: 2px;
+  background-color: #000;
+  position: absolute;
+}
+.face-hair-1 {
+  transform: rotate(15deg);
+  top: 35%;
+  left: 38%;
+}
+.face-hair-2 {
+  transform: rotate(0deg);
+  top: 38%;
+  left: 38%;
+}
+.face-hair-3 {
+  transform: rotate(350deg);
+  top: 41%;
+  left: 38%;
+}
+.face-hair-4 {
+  transform: rotate(345deg);
+  top: 35%;
+  right: 38%;
+}
+.face-hair-5 {
+  transform: rotate(0deg);
+  top: 38%;
+  right: 38%;
+}
+.face-hair-6 {
+  transform: rotate(10deg);
+  top: 41%;
+  right: 38%;
+}
+
+.nose-to-lips-line {
+  border-left: 1px solid #000;
+  height: 70px;
+  position: absolute;
+  top: 34%;
+  left: 50%;
+}
+
+.lips {
+  background-color: #ffffff;
+  height: 113px;
+  width: 113px;
+  border-radius: 50%;
+  border-bottom: 1px solid #000;
+  margin: 9px auto 0;
+}
 
 .collar {
   width: 150px;
