@@ -73,6 +73,25 @@
   top: 41%;
   right: 51%;
 }
+
+.nose {
+  height: 20px;
+  width: 20px;
+  background-color: #d94131;
+  border: 1px solid #000;
+  position: absolute;
+  border-radius: 50%;
+  top: 30%;
+  left: 48%;
+}
+.nose-shine {
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  margin: 5px 0 0 3px;
+}
+
 .collar {
   width: 150px;
   height: 70px;
