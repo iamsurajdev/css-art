@@ -32,6 +32,7 @@
   align-items: center;
   border-radius: 50%;
   background-color: #459eb9;
+  border: 2px solid #000;
   z-index: 10;
   margin-bottom: -42px;
 }
@@ -45,7 +46,7 @@
   height: 49px;
   width: 35px;
   background-color: #fff;
-  border: 1px solid #000;
+  border: 2px solid #000;
   position: absolute;
   border-radius: 45%;
 }
@@ -78,7 +79,7 @@
   height: 20px;
   width: 20px;
   background-color: #d94131;
-  border: 1px solid #000;
+  border: 2px solid #000;
   position: absolute;
   border-radius: 50%;
   top: 30%;
@@ -129,7 +130,7 @@
 }
 
 .nose-to-lips-line {
-  border-left: 1px solid #000;
+  border-left: 2px solid #000;
   height: 70px;
   position: absolute;
   top: 34%;
@@ -141,7 +142,7 @@
   height: 113px;
   width: 113px;
   border-radius: 50%;
-  border-bottom: 1px solid #000;
+  border-bottom: 2px solid #000;
   margin: 9px auto 0;
 }
 
@@ -149,6 +150,7 @@
   width: 150px;
   height: 70px;
   background-color: #d44030;
+  border: 2px solid #000;
   border-radius: 50%;
   position: absolute;
   z-index: 5;
@@ -168,6 +170,7 @@
   width: 100px;
   background-color: #fff;
   border-radius: 50%;
+  border: 2px solid #000;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -177,6 +180,7 @@
   height: 20px;
   width: 20px;
   background-color: #e6d241;
+  border: 1px solid #000;
   border-radius: 50%;
   z-index: 2;
   margin-top: -2px;
@@ -185,7 +189,7 @@
 .belly-pocket {
   height: 50px;
   width: 70px;
-  border: 1px solid #c1c1c1;
+  border: 1px solid #000;
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
   margin-bottom: 10px;
@@ -204,7 +208,7 @@
 
 .right-palm {
   background-color: rgb(255, 255, 255);
-  border: 1px solid #000;
+  border: 2px solid #000;
   width: 50px;
   height: 50px;
   margin-left: -20px;
@@ -223,7 +227,7 @@
 
 .left-palm {
   background-color: rgb(255, 255, 255);
-  border: 1px solid #000;
+  border: 2px solid #000;
   width: 50px;
   height: 50px;
   margin-left: -20px;
@@ -246,7 +250,7 @@
 
 .right-feet {
   background-color: rgb(255, 255, 255);
-  border: 1px solid #000;
+  border: 2px solid #000;
   width: 65px;
   height: 23px;
   margin-bottom: -14px;
@@ -269,7 +273,7 @@
 
 .left-feet {
   background-color: rgb(255, 255, 255);
-  border: 1px solid #000;
+  border: 2px solid #000;
   width: 65px;
   height: 23px;
   margin-bottom: -14px;
