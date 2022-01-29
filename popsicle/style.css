@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(149, 67, 197);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.frame {
+  height: 500px;
+  width: 500px;
+  background-color: rgb(71, 12, 126);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.popsicle_body {
+  height: 300px;
+  width: 200px;
+  border-radius: 30% 30% 10% 10%;
+  background-color: rgb(255, 138, 138);
+}
+.popsicle_stick {
+  width: 60px;
+  height: 72px;
+  border-top: 12px solid #db9e74;
+  background-color: #ecaa7d;
+  border-radius: 0 0 26px 26px;
+}
