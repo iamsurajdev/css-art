@@ -81,7 +81,7 @@ body {
 .popsicle_smile {
   height: 20px;
   width: 50px;
-  border-radius: 0 0 40% 40%;
+  border-radius: 10% 10% 45% 45%;
   background-color: rgb(5, 94, 71);
   margin-top: 25px;
 }
