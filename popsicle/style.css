@@ -85,3 +85,11 @@ body {
   background-color: rgb(5, 94, 71);
   margin-top: 25px;
 }
+
+.popsicle_shadow {
+  height: 30px;
+  width: 180px;
+  border-radius: 50%;
+  background-color: rgba(48, 48, 48, 0.534);
+  margin-top: 15px;
+}
