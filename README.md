@@ -8,6 +8,10 @@
 
 ![GitHub Logo](/images/doremon-screenshot.png)
 
+## Popsicle Design with CSS
+
+![GitHub Logo](/images/popsicle-screenshot.png)
+
 ## Connect with me 🎯
 
 [🔴 Instagram](https://www.instagram.com/iamsuraj_dev/)
