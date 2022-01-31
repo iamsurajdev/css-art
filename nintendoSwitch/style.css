@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: cadetblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frame {
+  height: 500px;
+  width: 800px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.nintendo_hand {
+  height: 300px;
+  width: 100px;
+}
+.nintendo_left_hand {
+  border-radius: 50px 0 0 50px;
+  background-color: #00bedd;
+}
+.nintendo_right_hand {
+  border-radius: 0 50px 50px 0;
+  background-color: #fe5b50;
+}
+.nintendo_screen_area {
+  height: 300px;
+  width: 470px;
+  background-color: rgb(75, 72, 74);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nintendo_screen_border {
+  height: 285px;
+  width: 455px;
+  background-color: rgb(41, 38, 38);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.nintendo_screen {
+  height: 230px;
+  width: 400px;
+  background-color: rgb(138, 220, 223);
+}
