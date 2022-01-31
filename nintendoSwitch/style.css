@@ -22,6 +22,8 @@ body {
 .nintendo_hand {
   height: 300px;
   width: 100px;
+  display: flex;
+  flex-direction: column;
 }
 .nintendo_left_hand {
   border-radius: 50px 0 0 50px;
@@ -31,6 +33,58 @@ body {
   border-radius: 0 50px 50px 0;
   background-color: #fe5b50;
 }
+
+.joy_stick_circle {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: rgb(14, 14, 14);
+  margin: 20px auto 0;
+}
+
+.minus_button {
+  height: 3px;
+  width: 14px;
+  background-color: #111111;
+  margin: 30px 0 0 76px;
+}
+
+.arrow_keys {
+  height: 78px;
+  width: 78px;
+  margin: 20px auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.arrow_button {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background-color: #111111;
+}
+
+.top_arrow_button {
+}
+.side_arrow_buttons {
+  height: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.down_arrow_button {
+}
+
+.extra_button {
+  height: 20px;
+  width: 20px;
+  background-color: #111111;
+  margin: 20px 0 0 62px;
+}
+
 .nintendo_screen_area {
   height: 300px;
   width: 470px;
