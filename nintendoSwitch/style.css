@@ -49,6 +49,35 @@ body {
   margin: 30px 0 0 76px;
 }
 
+.plus_button{
+  width: 35px;
+  height: 35px;
+  position: relative;
+  margin: 10px 0 0 10;
+}
+
+.plus_button:after {
+  content: '';
+  position: absolute;
+  transform: translate(-50%, -50%);
+  height: 4px;
+  width: 50%;
+  background: #111111;
+  top: 70%;
+  left: 70%;
+}
+
+.plus_button:before {
+  content: '';
+  position: absolute;
+  top: 70%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  background: #111111;
+  height: 50%;
+  width: 4px;
+}
+
 .arrow_keys {
   height: 78px;
   width: 78px;
@@ -78,11 +107,18 @@ body {
 .down_arrow_button {
 }
 
-.extra_button {
+.left_hand_extra_button {
   height: 20px;
   width: 20px;
   background-color: #111111;
   margin: 20px 0 0 62px;
+}
+
+.right_hand_extra_button {
+  height: 20px;
+  width: 20px;
+  background-color: #111111;
+  margin: 20px 0 0 20px;
 }
 
 .nintendo_screen_area {
