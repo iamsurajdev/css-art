@@ -90,12 +90,45 @@ body {
 .arrow_button {
   height: 25px;
   width: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 50%;
-  background-color: #111111;
+  background-color: #363535;
+  color: #fff;
+  font-size: 11px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* left hand */
+.top_arrow_button_shap_left_hand{
+  height: 0;
+  width: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 8px solid #000;
+}
+.down_arrow_button_shap_left_hand{
+  height: 0;
+  width: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 8px solid #000;
+}
+.left_arrow_button_shap_left_hand{
+  height: 0;
+  width: 0;
+  border-top: 5px solid transparent;
+  border-right: 8px solid #000;
+  border-bottom: 5px solid transparent;
+}
+.right_arrow_button_shap_left_hand{
+  height: 0;
+  width: 0;
+  border-top: 5px solid transparent;
+  border-left: 8px solid #000;
+  border-bottom: 5px solid transparent;
 }
 
-.top_arrow_button {
-}
 .side_arrow_buttons {
   height: 30px;
   width: 100%;
@@ -103,8 +136,7 @@ body {
   align-items: center;
   justify-content: space-between;
 }
-.down_arrow_button {
-}
+
 
 .left_hand_extra_button {
   height: 20px;
