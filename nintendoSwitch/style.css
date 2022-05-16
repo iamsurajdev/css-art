@@ -37,9 +37,20 @@ body {
 .joy_stick_circle {
   height: 50px;
   width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 50%;
   background-color: rgb(14, 14, 14);
   margin: 20px auto 0;
+}
+
+.joy_stick_inner_bump{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #353535, #363636);
+  box-shadow:  3px 3px 7px #262626, -3px -3px 7px #646464;
 }
 
 .minus_button {
@@ -87,9 +98,19 @@ body {
   justify-content: space-between;
 }
 
+.arrow_button_shadow_wraper{
+  height: 28px;
+  width: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #000;
+}
+
 .arrow_button {
-  height: 25px;
-  width: 25px;
+  height: 22px;
+  width: 22px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -98,6 +119,7 @@ body {
   color: #fff;
   font-size: 11px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow:  2px 2px 5px #262626,  -2px -2px 5px #646464;
 }
 /* left hand */
 .top_arrow_button_shap_left_hand{
